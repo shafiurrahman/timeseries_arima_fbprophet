@@ -18,8 +18,8 @@ STEP 3 : TESTS FOR STATIONARITY
 Though it is clearly seen in the plots that the time series is not stationary, we will still perform the adf test , at a significance level of 0.05, to determine the stationarity.
 
 STEP 4: PARAMETER ESTIMATION
-Now that we have made the time series stationary, we will fit in the model for the original time series data and mention d=2. The above ACF and PACF suggests that MA(1) is a good candidate.
-arma now deprecated, arima, sarima or VAR , fbprophet
+Now that we have made the time series stationary, we will fit in the model for the original time series data   ACF and PACF are good candidates to provide parameter estimation.
+ i have used in the given case,arma now deprecated, arima, sarima or VAR , fbprophet
 
 STEP 6 : RESIDUAL ANALYSIS
 While modeling the time series data, we made certain assumptions of the nature of error.
@@ -27,4 +27,4 @@ While modeling the time series data, we made certain assumptions of the nature o
 We need to plot the residual, its ACF and PACF in order to see if the assumptions are still intact. If the model fits the data well, then residual will behave like white noises.
 
 STEP 7 : FORECASTING
-Now that we know the model is a good fit, we need to forecast for the next two years. This can be done as follows:
+Now that we know the model is a good fit, we need to forecast for the next two years or 12 months depending on the use case and requirement. 
